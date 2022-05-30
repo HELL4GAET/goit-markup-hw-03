@@ -1,0 +1,233 @@
+:root {
+    --primary-text-color: #212121;
+    --description-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-background-color: #ffffff;
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+/* WebStudio logo */
+nav .logo {
+    color: var(--primary-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.web {
+    color: var(--accent-color);
+}
+
+nav .logo:hover,
+nav .logo:focus {
+    color: var(--accent-color);
+}
+/* навигация в хедере */
+
+.site-nav .link {
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .current {
+    color: var(--accent-color);
+}
+
+
+
+
+
+.auth-nav .link {
+    color: var(--description-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Секция герой */
+.hero .decision {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-text-color)
+}
+
+.hero-button {
+    cursor: pointer;
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    letter-spacing: 0.06em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+   background-color: #188CE8;
+}
+
+/* основная секция */
+.details {
+    font-family: Roboto, sans-serif;
+}
+
+.details-description {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.details-information {
+    color: var(--description-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.details-logo {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Наша команда */
+.our-team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.our-team h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.our-team p {
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        color: var(--description-text-color);
+}
+
+/* Футер */
+footer {
+    background-color: #2F303A;
+}
+
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--primary-background-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.logo .accent {
+    color: var(--accent-color);
+}
+
+
+.location {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-background-color);
+    font-style: normal;
+}
+
+.connection {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.connection:hover,
+.connection:focus {
+    color: var(--accent-color);
+}
+
+ul li {
+list-style: none;
+}
+
+
+/* Портфолио */
+/* фильтр */
+.filter button {
+    cursor: pointer;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.73;
+}
+
+.filter button:hover,
+.filter button:focus {
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+}
+
+.filter h2 {
+    font-family: Roboto, sans-serif ;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+.filter p {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--description-text-color);
+}
+
