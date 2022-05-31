@@ -238,7 +238,7 @@ nav .logo:focus {
 }
 
 .our-teamates {
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 .our-teamates:last-child {
@@ -279,7 +279,6 @@ nav .logo:focus {
   color: var(--description-text-color);
   margin: 0;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /* Футер */
@@ -451,20 +450,19 @@ nav .logo:focus {
 
 /* карточки портфолио */
 
-.card {
+.card-content {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
 .cards {
-  border: 1px solid #eeeeee;
-  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 0;
   background-color: var(--primary-background-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .cards-thumb img {
@@ -473,4 +471,8 @@ nav .logo:focus {
 
 .card-content {
   padding: 20px 24px;
+}
+
+.cards-content {
+  padding-bottom: 30px;
 }
