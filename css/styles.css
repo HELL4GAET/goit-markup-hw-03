@@ -127,6 +127,14 @@ nav .logo:focus {
 /* Секция герой */
 .section.hero {
   text-align: center;
+  background-color: #2f303a;
+  min-width: 1600px;
+  height: 600px;
+}
+
+.hero-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .hero .decision {
@@ -137,7 +145,7 @@ nav .logo:focus {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-text-color);
+  color: var(--primary-background-color);
   margin: 0;
   margin-bottom: 30px;
 }
@@ -441,10 +449,6 @@ nav .logo:focus {
 }
 
 .work {
-  padding-top: 0;
-}
-
-.details {
   padding-top: 0;
 }
 
