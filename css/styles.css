@@ -130,11 +130,8 @@ nav .logo:focus {
   background-color: #2f303a;
   min-width: 1600px;
   height: 600px;
-}
-
-.hero-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero .decision {
